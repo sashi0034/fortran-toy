@@ -1,9 +1,16 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36804.6 d17.14
+VisualStudioVersion = 17.14.36804.6
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{6989167D-11E4-40FE-8C1A-2192A86A7E90}") = "fortran-toy", "fortran-toy\fortran-toy.vfproj", "{E2FDFF18-03C9-39D8-4AF0-FFFF9BC44E31}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CApp", "CApp\CApp.vcxproj", "{5785CD8B-9C7D-437F-9F10-6501EDA1B93E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{71F54374-B76F-BF74-77BD-FB24D2D52B65} = {71F54374-B76F-BF74-77BD-FB24D2D52B65}
+	EndProjectSection
+EndProject
+Project("{6989167D-11E4-40FE-8C1A-2192A86A7E90}") = "FortranLib", "FortranLib\FortranLib.vfproj", "{71F54374-B76F-BF74-77BD-FB24D2D52B65}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +28,22 @@ Global
 		{E2FDFF18-03C9-39D8-4AF0-FFFF9BC44E31}.Release|x64.Build.0 = Release|x64
 		{E2FDFF18-03C9-39D8-4AF0-FFFF9BC44E31}.Release|x86.ActiveCfg = Release|Win32
 		{E2FDFF18-03C9-39D8-4AF0-FFFF9BC44E31}.Release|x86.Build.0 = Release|Win32
+		{5785CD8B-9C7D-437F-9F10-6501EDA1B93E}.Debug|x64.ActiveCfg = Debug|x64
+		{5785CD8B-9C7D-437F-9F10-6501EDA1B93E}.Debug|x64.Build.0 = Debug|x64
+		{5785CD8B-9C7D-437F-9F10-6501EDA1B93E}.Debug|x86.ActiveCfg = Debug|Win32
+		{5785CD8B-9C7D-437F-9F10-6501EDA1B93E}.Debug|x86.Build.0 = Debug|Win32
+		{5785CD8B-9C7D-437F-9F10-6501EDA1B93E}.Release|x64.ActiveCfg = Release|x64
+		{5785CD8B-9C7D-437F-9F10-6501EDA1B93E}.Release|x64.Build.0 = Release|x64
+		{5785CD8B-9C7D-437F-9F10-6501EDA1B93E}.Release|x86.ActiveCfg = Release|Win32
+		{5785CD8B-9C7D-437F-9F10-6501EDA1B93E}.Release|x86.Build.0 = Release|Win32
+		{71F54374-B76F-BF74-77BD-FB24D2D52B65}.Debug|x64.ActiveCfg = Debug|x64
+		{71F54374-B76F-BF74-77BD-FB24D2D52B65}.Debug|x64.Build.0 = Debug|x64
+		{71F54374-B76F-BF74-77BD-FB24D2D52B65}.Debug|x86.ActiveCfg = Debug|Win32
+		{71F54374-B76F-BF74-77BD-FB24D2D52B65}.Debug|x86.Build.0 = Debug|Win32
+		{71F54374-B76F-BF74-77BD-FB24D2D52B65}.Release|x64.ActiveCfg = Release|x64
+		{71F54374-B76F-BF74-77BD-FB24D2D52B65}.Release|x64.Build.0 = Release|x64
+		{71F54374-B76F-BF74-77BD-FB24D2D52B65}.Release|x86.ActiveCfg = Release|Win32
+		{71F54374-B76F-BF74-77BD-FB24D2D52B65}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
